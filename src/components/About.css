@@ -91,3 +91,28 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+@media (max-width: 768px) {
+    .Fey {
+      margin: 50px 20px; /* Reduce margin for smaller screens */
+      border-radius: 20px; /* Adjust border-radius */
+      box-shadow: 3px 6px 6px rgba(92, 149, 235, 0.4); /* Adjust box-shadow */
+    }
+    .about h1 {
+      font-size: 40px; /* Adjust font size for smaller screens */
+    }
+    .about p, .f-name, .edu li, .cert li {
+      font-size: 18px; /* Adjust font size for smaller screens */
+      margin: 0 20px 10px 20px; /* Adjust margins */
+    }
+    .edu h2, .cert h2 {
+      font-size: 30px; /* Adjust font size for smaller screens */
+    }
+    .f-logo img {
+      width: 30px; /* Adjust icon size for smaller screens */
+      height: 30px;
+    }
+    .f-copy h5 {
+      font-size: 12px; /* Adjust font size for smaller screens */
+    }
+  }

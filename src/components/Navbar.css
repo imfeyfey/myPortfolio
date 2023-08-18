@@ -1,0 +1,17 @@
+.navbar {
+    display:flex;
+    justify-content: flex-end;
+    padding-top: 15px;
+    padding-right: 55px;
+}
+
+.nav-menu Button {
+    color: rgb(16, 16, 218);
+    font-size: large;
+}
+
+.nav-menu Button:hover {
+    background-color: rgb(117, 117, 202);
+    color: aliceblue;
+}
+

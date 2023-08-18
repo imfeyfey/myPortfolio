@@ -1,0 +1,93 @@
+.Fey{
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background: rgba(162, 196, 248, 0.3);
+    box-shadow: 5px 10px 10px rgba(92, 149, 235, 0.4);
+    margin : 80px 150px 150px 150px;
+}
+
+.about {
+    margin: 30px 150px 30px 150px;
+}
+
+.about h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 25px;
+    margin: 0 60px 20px 60px;
+    text-align: justify;
+}
+
+.f-name {
+    font-size: 30px;
+    margin: 0 60px 20px 60px;
+    text-align: justify;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.edu {
+    margin: 30px 150px 30px 150px;
+}
+
+.edu li {
+    font-size: 25px;
+    margin: 0 60px 20px 60px;
+}
+
+
+.cert {
+    margin: 30px 150px 50px 150px;
+}
+
+.cert li {
+    font-size: 25px;
+    margin: 0 60px 20px 60px;
+}
+
+.edu h2, .cert h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.italic {
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+
+footer {
+    position: relative;
+    bottom:0;
+    width: 100%;
+}
+.f-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.f-logo img {
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 50px;
+    height: 50px;
+}
+
+.f-copy {
+    display: flex;
+    justify-content: center;
+}
